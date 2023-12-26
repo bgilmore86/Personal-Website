@@ -1,0 +1,121 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li a.active {
+    background-color: #555;
+    border-bottom: 3px solid white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#landing {
+    background-image: url("https://img.freepik.com/free-vector/palm-tree-sketch-background_23-2147620099.jpg?size=626&ext=jpg&ga=GA1.1.366825126.1697516234&semt=ais");
+    /* background image. */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+#landing h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+#landing p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+#landing img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 2px 2px 4px black;
+}
+
+#about {
+    background-color: #f0f0f0;
+    min-height: 80vh;
+}
+
+#about h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#about ul {
+    color: #333;
+    font-size: 18px;
+    line-height:normal
+
+}
